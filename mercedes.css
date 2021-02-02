@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+  
+}
+
+.header{
+    margin:20px;
+}
+.header{
+    display: flex;
+}
+.header h2{
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+hr{
+    color:white;
+}
+
+ .container-fluid .collapse .nav-item .nav-link{
+    color:white;
+}
+.container-fluid .collapse .nav-item .nav-link:hover{
+    color:rgb(181, 240, 237);
+}
+.cars .container .shadow div{
+    border:1px solid gray;
+}
+
+.container .cartypes{
+    display: flex;
+    flex-direction: column;
+    border:2px solid wheat;
+    justify-content: center;
+    align-items: center;
+}
+.container .cartypes a{
+    text-decoration: none;
+    color:rgb(216, 208, 208);
+}
+.container .cartypes a:hover{
+    color:rgb(158, 155, 155);
+}
+
+.container .boxes{
+display: flex;
+}
+
+section{
+    background-color: white;
+}
+
+
+@media(max-width:768px){
+    .container .boxes{
+           display: flex;
+           flex-direction: column;
+    }
+}
+@media (max-width:768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
